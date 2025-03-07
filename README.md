@@ -1,10 +1,30 @@
 # Hydroecological Riparian Zone
 
-This repository contains scripts for extracting hydrological and ecological factors influencing riparian zones, utilizing Sentinel Imagery through Google Earth Engine (GEE).
+This repository contains flowcharts, ArcGIS Pro workflows, and scripts for delineating hydroecological riparian zone. 
 
 ---
+## Flowcharts
 
+### 1. **High Level Workflow**
+### 2. **Terrain Depressions using LiDAR**
+### 3. **Seasonal Flooding using Sentinel-1 Imagery**
+### 4. **Ecological Factors using Sentinel-2 Imagery**
+### 5. **Developed Areas using Classification of Sentinel-2 Imagery**
+### 6. **Integration of analyzed factors to delineate hydroecological riparian zone**
+
+---
+## Workflows
+
+### 1. **Extract DEM using LiDAR data**
+### 2. **Derive hydrological network using DEM**
+### 3. **Derive terrain depressions using DEM**
+### 4. **Automated batch conversion of Geojson features exported from GEE**
+### 5. **Automated integration of analyzed factors**
+### 6. **Delineate hydroecological riparian zone and calculate width**
+
+---
 ## Scripts
+Scripts for extracting hydrological and ecological factors influencing riparian zones, utilizing Sentinel Imagery through Google Earth Engine (GEE).
 
 ### 1. **Flood.js**
 This script identifies seasonal flooding extents using Sentinel-1 satellite imagery and references established methodologies.
