@@ -18,21 +18,6 @@ This repository contains flowcharts, ArcGIS Pro workflows, and scripts for delin
 ### 6. **Integration of analyzed factors to delineate hydroecological riparian zone**
 ![Integration of analyzed factors to delineate hydroecological riparian zone](Flowcharts/6_IntegrateFactors.png)
 
----
-## Workflows
-
-### 1. **Extract DEM using LiDAR data**
-![Extract DEM using LiDAR data](Workflows/1_Lidar_to_DEM.png)
-### 2. **Derive hydrological network using DEM**
-![Derive hydrological network using DEM](Workflows/2_DEM_to_Streams.png)
-### 3. **Derive terrain depressions using DEM**
-![Derive terrain depressions using DEM](Workflows/3_DEM_to_TerrainDepressions.png)
-### 4. **Automated batch conversion of Geojson features exported from GEE**
-![Automated batch conversion of Geojson features exported from GEE](Workflows/4_json_to_features.png)
-### 5. **Automated integration of analyzed factors**
-![Automated integration of analyzed factors](Workflows/5_IntegrateAnalyzedFactors.png)
-### 6. **Delineate hydroecological riparian zone and calculate width**
-![Delineate hydroecological riparian zone and calculate width](Workflows/6_Calculate_width.png)
 
 ---
 ## Scripts
@@ -138,6 +123,21 @@ This script identifies developed areas to be excluded from final riparian zone u
 ---
 
 
-
 ### How to Use
 Copy scripts into GEE to run on Code Editor
+
+---
+## Workflows
+
+### 1. **Extract DEM using LiDAR data**
+![Extract DEM using LiDAR data](Workflows/1_Lidar_to_DEM.png)
+### 2. **Derive hydrological network using DEM**
+![Derive hydrological network using DEM](Workflows/2_DEM_to_Streams.png)
+### 3. **Derive terrain depressions using DEM**
+![Derive terrain depressions using DEM](Workflows/3_DEM_to_TerrainDepressions.png)
+### 4. **Automated batch conversion of Geojson features exported from GEE**
+![Automated batch conversion of Geojson features exported from GEE](Workflows/4_json_to_features.png)
+### 5. **Automated integration of analyzed factors**
+![Automated integration of analyzed factors](Workflows/5_IntegrateAnalyzedFactors.png)
+### 6. **Delineate hydroecological riparian zone and calculate width**
+![Delineate hydroecological riparian zone and calculate width](Workflows/6_Calculate_width.png)
