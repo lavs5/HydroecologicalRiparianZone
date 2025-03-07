@@ -22,11 +22,17 @@ This repository contains flowcharts, ArcGIS Pro workflows, and scripts for delin
 ## Workflows
 
 ### 1. **Extract DEM using LiDAR data**
+![Extract DEM using LiDAR data](Workflows/1_Lidar_to_DEM.png)
 ### 2. **Derive hydrological network using DEM**
+![Derive hydrological network using DEM](Workflows/2_DEM_to_Streams.png)
 ### 3. **Derive terrain depressions using DEM**
+![Derive terrain depressions using DEM](Workflows/3_DEM_to_TerrainDepressions.png)
 ### 4. **Automated batch conversion of Geojson features exported from GEE**
+![Automated batch conversion of Geojson features exported from GEE](Workflows/4_json_to_features.png)
 ### 5. **Automated integration of analyzed factors**
+![Automated integration of analyzed factors](Workflows/5_IntegrateAnalyzedFactors.png)
 ### 6. **Delineate hydroecological riparian zone and calculate width**
+![Delineate hydroecological riparian zone and calculate width](Workflows/6_Calculate_width.png)
 
 ---
 ## Scripts
@@ -56,7 +62,7 @@ This script identifies seasonal flooding extents using Sentinel-1 satellite imag
 
 ---
 
-### 2. **Veg.js**
+### 2. [Veg.js](Scripts/veg.js)
 This script identifies dense vegetation extents using Sentinel-2 satellite imagery and vegetation spectral indices.
 
 
@@ -77,7 +83,7 @@ This script identifies dense vegetation extents using Sentinel-2 satellite image
 
 ---
 
-### 3. **Soil.js**
+### 3. [Soil.js](Scripts/soil.js)
 This script identifies hydric soils extents using Sentinel-2 satellite imagery and soil spectral indices.
 
 
@@ -96,7 +102,7 @@ This script identifies hydric soils extents using Sentinel-2 satellite imagery a
 
 ---
 
-### 4. **Moisture.js**
+### 4. [Moisture.js](Scripts/water.js)
 This script identifies high moisture extents using Sentinel-2 satellite imagery and moisture spectral indices.
 
 
@@ -115,7 +121,7 @@ This script identifies high moisture extents using Sentinel-2 satellite imagery 
 
 ---
 
-### 5. **Classify.js**
+### 5. [Classify.js](Scripts/classify.js)
 This script identifies developed areas to be excluded from final riparian zone using Sentinel-2 satellite imagery and Supervised Classification Algorithms (CART, RF, SVM).
 
 
