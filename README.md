@@ -32,7 +32,7 @@ This repository contains flowcharts, ArcGIS Pro workflows, and scripts for delin
 ## Scripts
 Scripts for extracting hydrological and ecological factors influencing riparian zones, utilizing Sentinel Imagery through Google Earth Engine (GEE).
 
-### 1. **Flood.js**
+### 1. **Flood.js**(flood.js)
 This script identifies seasonal flooding extents using Sentinel-1 satellite imagery and references established methodologies.
 
 #### **References**
