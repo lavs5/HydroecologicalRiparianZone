@@ -6,11 +6,17 @@ This repository contains flowcharts, ArcGIS Pro workflows, and scripts for delin
 ## Flowcharts
 
 ### 1. **High Level Workflow**
+![High Level Workflow](Flowcharts/1_HighLevelWorkflow.png)
 ### 2. **Terrain Depressions using LiDAR**
+![Terrain Depressions using LiDAR](Flowcharts/2_LidarTerrainDepressions.png)
 ### 3. **Seasonal Flooding using Sentinel-1 Imagery**
+![Seasonal Flooding using Sentinel-1 Imagery](Flowcharts/3_SeasonalFlooding.png)
 ### 4. **Ecological Factors using Sentinel-2 Imagery**
+![Ecological Factors using Sentinel-2 Imagery](Flowcharts/4_EcologicalFactors.png)
 ### 5. **Developed Areas using Classification of Sentinel-2 Imagery**
+![Developed Areas using Classification of Sentinel-2 Imagery](Flowcharts/5_ClassifyDeveloped.png)
 ### 6. **Integration of analyzed factors to delineate hydroecological riparian zone**
+![Integration of analyzed factors to delineate hydroecological riparian zone](Flowcharts/6_IntegrateFactors.png)
 
 ---
 ## Workflows
