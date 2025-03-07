@@ -6,27 +6,24 @@ This repository contains flowcharts, ArcGIS Pro workflows, and scripts for delin
 ## Flowcharts
 
 ### 1. **High Level Workflow**
+![High Level Workflow](Flowcharts/1_HighLevelWorkflow.png)
 ### 2. **Terrain Depressions using LiDAR**
+![Terrain Depressions using LiDAR](Flowcharts/2_LidarTerrainDepressions.png)
 ### 3. **Seasonal Flooding using Sentinel-1 Imagery**
+![Seasonal Flooding using Sentinel-1 Imagery](Flowcharts/3_SeasonalFlooding.png)
 ### 4. **Ecological Factors using Sentinel-2 Imagery**
+![Ecological Factors using Sentinel-2 Imagery](Flowcharts/4_EcologicalFactors.png)
 ### 5. **Developed Areas using Classification of Sentinel-2 Imagery**
+![Developed Areas using Classification of Sentinel-2 Imagery](Flowcharts/5_ClassifyDeveloped.png)
 ### 6. **Integration of analyzed factors to delineate hydroecological riparian zone**
+![Integration of analyzed factors to delineate hydroecological riparian zone](Flowcharts/6_IntegrateFactors.png)
 
----
-## Workflows
-
-### 1. **Extract DEM using LiDAR data**
-### 2. **Derive hydrological network using DEM**
-### 3. **Derive terrain depressions using DEM**
-### 4. **Automated batch conversion of Geojson features exported from GEE**
-### 5. **Automated integration of analyzed factors**
-### 6. **Delineate hydroecological riparian zone and calculate width**
 
 ---
 ## Scripts
 Scripts for extracting hydrological and ecological factors influencing riparian zones, utilizing Sentinel Imagery through Google Earth Engine (GEE).
 
-### 1. **Flood.js**
+### 1. [Flood.js](Scripts/flood.js)
 This script identifies seasonal flooding extents using Sentinel-1 satellite imagery and references established methodologies.
 
 #### **References**
@@ -50,7 +47,7 @@ This script identifies seasonal flooding extents using Sentinel-1 satellite imag
 
 ---
 
-### 2. **Veg.js**
+### 2. [Veg.js](Scripts/veg.js)
 This script identifies dense vegetation extents using Sentinel-2 satellite imagery and vegetation spectral indices.
 
 
@@ -71,7 +68,7 @@ This script identifies dense vegetation extents using Sentinel-2 satellite image
 
 ---
 
-### 3. **Soil.js**
+### 3. [Soil.js](Scripts/soil.js)
 This script identifies hydric soils extents using Sentinel-2 satellite imagery and soil spectral indices.
 
 
@@ -90,7 +87,7 @@ This script identifies hydric soils extents using Sentinel-2 satellite imagery a
 
 ---
 
-### 4. **Moisture.js**
+### 4. [Moisture.js](Scripts/water.js)
 This script identifies high moisture extents using Sentinel-2 satellite imagery and moisture spectral indices.
 
 
@@ -109,7 +106,7 @@ This script identifies high moisture extents using Sentinel-2 satellite imagery 
 
 ---
 
-### 5. **Classify.js**
+### 5. [Classify.js](Scripts/classify.js)
 This script identifies developed areas to be excluded from final riparian zone using Sentinel-2 satellite imagery and Supervised Classification Algorithms (CART, RF, SVM).
 
 
@@ -126,6 +123,21 @@ This script identifies developed areas to be excluded from final riparian zone u
 ---
 
 
-
 ### How to Use
 Copy scripts into GEE to run on Code Editor
+
+---
+## Workflows
+
+### 1. **Extract DEM using LiDAR data**
+![Extract DEM using LiDAR data](Workflows/1_Lidar_to_DEM.png)
+### 2. **Derive hydrological network using DEM**
+![Derive hydrological network using DEM](Workflows/2_DEM_to_Streams.png)
+### 3. **Derive terrain depressions using DEM**
+![Derive terrain depressions using DEM](Workflows/3_DEM_to_TerrainDepressions.png)
+### 4. **Automated batch conversion of Geojson features exported from GEE**
+![Automated batch conversion of Geojson features exported from GEE](Workflows/4_json_to_features.png)
+### 5. **Automated integration of analyzed factors**
+![Automated integration of analyzed factors](Workflows/5_IntegrateAnalyzedFactors.png)
+### 6. **Delineate hydroecological riparian zone and calculate width**
+![Delineate hydroecological riparian zone and calculate width](Workflows/6_Calculate_width.png)
