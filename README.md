@@ -17,7 +17,8 @@ This repository contains flowcharts, ArcGIS Pro workflows, and scripts for delin
 ![Developed Areas using Classification of Sentinel-2 Imagery](Flowcharts/5_ClassifyDeveloped.png)
 ### 6. **Integration of analyzed factors to delineate hydroecological riparian zone**
 ![Integration of analyzed factors to delineate hydroecological riparian zone](Flowcharts/6_IntegrateFactors.png)
-
+### 7. **Implementaion of developed workflow to delineate hydroecological riparian zone**
+![Implementaion of developed workflow to delineate hydroecological riparian zone](Flowcharts/7_ImplementWorkflow.png)
 
 ---
 ## Scripts
